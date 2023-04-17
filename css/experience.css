@@ -30,23 +30,28 @@ nav {
     font-size: 18px;
 }
 
-.main-container {
+.grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     padding: 20px;
 }
 
-.work-experience-container {
-    border-right: 1px solid #808080;
-    padding-right: 20px;
-}
-
-.education-container {
-    padding-left: 20px;
-}
-
-h1, h2, h3 {
+.grid-item h1 {
     margin: 0;
     color: #808080;
+}
+
+.grid-item h2 {
+    color: #808080;
+    margin-left: 20px;
+}
+
+.grid-item h3 {
+    color: #808080;
+    margin-left: 40px;
+}
+
+.grid-item p {
+    margin-left: 60px;
 }
