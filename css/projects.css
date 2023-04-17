@@ -29,3 +29,14 @@ nav {
     margin: 0 20px;
     font-size: 18px;
 }
+
+img{
+    margin:20px;
+    float: left;
+    width:100px;
+    height:100px;
+}
+
+.nameDesc{
+    overflow:auto;
+}
