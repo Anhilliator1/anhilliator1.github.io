@@ -24,13 +24,11 @@ nav {
 .nav-links a {
 	color: #fff;
 	text-decoration: none;
-	margin: 0 20px;
 	font-size: 18px;
 }
 
 img {
 	display: block;
-	margin: 0 auto;
 	width: 330px;
 	height: 330px;
 	object-fit: cover;
@@ -40,9 +38,4 @@ img {
 h1 {
 	font-size: 36px;
 	color: #000;
-	margin: 20px 0 0 40px;
-}
-
-p {
-	margin: 20px 0 0 40px;
 }
