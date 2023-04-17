@@ -30,7 +30,15 @@ nav {
     font-size: 18px;
 }
 
-h2, h3, p{
+h2{
     color:#808080;
-    margin:20px;
+    margin-left:20px;
+}
+
+h3{
+    color:#808080;
+    margin-left:40px;
+}
+p{
+    margin-left:60px;
 }
