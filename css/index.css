@@ -1,0 +1,60 @@
+/* Navbar styling */
+nav {
+	background-color: black;
+	height: 100px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0 20px;
+}
+
+	nav a {
+		color: white;
+		margin: 0 10px;
+		font-size: 18px;
+		text-decoration: none;
+	}
+
+/* Container styling */
+.container {
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+}
+
+/* Profile image and name styling */
+.profile-image {
+	display: flex;
+	align-items: center;
+}
+
+	.profile-image img {
+		width: 330px;
+		height: 330px;
+		object-fit: cover;
+		border-radius: 50%;
+	}
+
+	.profile-image h1 {
+		font-size: 36px;
+		color: white;
+		margin-left: 40px;
+	}
+
+/* Bio paragraph styling */
+.bio {
+	max-width: 800px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+	.bio p {
+		font-size: 24px;
+		line-height: 1.5;
+		color: black;
+	}
