@@ -1,60 +1,48 @@
-/* Navbar styling */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+	background-color: #fff;
+}
+
 nav {
-	background-color: black;
+	background-color: #000;
 	height: 100px;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	align-items: center;
-	padding: 0 20px;
 }
 
-	nav a {
-		color: white;
-		margin: 0 10px;
-		font-size: 18px;
-		text-decoration: none;
-	}
+.nav-logo h1 {
+	font-size: 36px;
+	color: #fff;
+	margin: 0;
+}
 
-/* Container styling */
-.container {
-	width: 80%;
-	max-width: 1200px;
+.nav-links a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 20px;
+	font-size: 18px;
+}
+
+img {
+	display: block;
 	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding-top: 50px;
+	width: 330px;
+	height: 330px;
+	object-fit: cover;
+	border-radius: 50%;
 }
 
-/* Profile image and name styling */
-.profile-image {
-	display: flex;
-	align-items: center;
+h1 {
+	font-size: 36px;
+	color: #000;
+	margin: 20px 0 0 40px;
 }
 
-	.profile-image img {
-		width: 330px;
-		height: 330px;
-		object-fit: cover;
-		border-radius: 50%;
-	}
-
-	.profile-image h1 {
-		font-size: 36px;
-		color: white;
-		margin-left: 40px;
-	}
-
-/* Bio paragraph styling */
-.bio {
-	max-width: 800px;
-	text-align: center;
-	margin-top: 40px;
+p {
+	margin: 20px 0 0 40px;
 }
-
-	.bio p {
-		font-size: 24px;
-		line-height: 1.5;
-		color: black;
-	}
