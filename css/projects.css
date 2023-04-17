@@ -30,21 +30,20 @@ nav {
     font-size: 18px;
 }
 
-.nameDesc {
-    overflow: auto;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
 }
 
-img{
-    margin:20px;
-    float: left;
-    width:100px;
-    height:100px;
-    object-fit: fill;
+.grid-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
-
-
-h2, p{
-    margin:0;
-    color:#808080;
+h2, p {
+    margin: 0;
+    color: #808080;
 }
