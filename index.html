@@ -1,24 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simon Jam - Home</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="utf-8">
+    <title>Simon Jam</title>
+    <style>
+        /* navbar styling */
+        .navbar {
+            background-color: black;
+            height: 100px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+            .navbar a {
+                color: white;
+                font-size: 24px;
+                margin-right: 20px;
+                text-decoration: none;
+            }
+        /* content styling */
+        .content {
+            margin-top: 120px;
+            margin-left: 20px;
+            max-width: 800px;
+        }
+
+            .content img {
+                width: 330px;
+                height: 330px;
+                float: left;
+                margin-right: 40px;
+            }
+
+            .content h1 {
+                font-size: 36px;
+                color: white;
+            }
+
+            .content p {
+                font-size: 24px;
+                line-height: 1.5;
+                color: #333;
+            }
+    </style>
 </head>
 <body>
-    <nav>
+    <div class="navbar">
         <a href="index.html">About</a>
         <a href="projects.html">Projects</a>
         <a href="experience.html">Experience</a>
         <a href="contact.html">Contact</a>
-    </nav>
-    <div class="container">
-        <div class="profile-image">
-            <img src="/img/Profile.jpg">
-            <h1>Simon Jam</h1>
-        </div>
-        <div class="bio">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod turpis eu urna vehicula, sed interdum lectus maximus. Nulla euismod turpis eu urna vehicula, sed interdum lectus maximus. Nulla euismod turpis eu urna vehicula, sed interdum lectus maximus.</p>
-        </div>
+    </div>
+    <div class="content">
+        <img src="/img/Profile.jpg" alt="Profile picture">
+        <h1>Simon Jam</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet sem a lectus mollis, non malesuada sapien posuere. Maecenas non lorem a tellus porttitor mollis quis ut mauris. Nam blandit sagittis bibendum. Aenean ultrices risus ut nisi rutrum volutpat. Donec sollicitudin id est ut sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc ac odio sed ex iaculis pretium a a neque. Nullam nec lobortis velit, nec pulvinar enim.</p>
     </div>
 </body>
 </html>
