@@ -30,6 +30,10 @@ nav {
     font-size: 18px;
 }
 
+.nameDesc {
+    overflow: auto;
+}
+
 img{
     margin:20px;
     float: left;
@@ -37,6 +41,9 @@ img{
     height:100px;
 }
 
-.nameDesc{
-    overflow:auto;
+
+
+h2, p{
+    margin:0;
+    color:#808080;
 }
