@@ -47,6 +47,12 @@ p {
     color: #000000;
 }
 
+grid-item img{
+    width:100px;
+    height:100px;
+    object-fit: scale-down;
+}
+
 .grid-item h3 {
     color: #000000;
     margin-left: 20px;
