@@ -44,7 +44,7 @@ nav {
 .grid-item img {
   width: 100%;
   height: auto;
-  object-fit: contain;
+  object-fit: scale-down;
 }
 
 h2, p {
